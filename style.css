@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: auto;
+    color: black;
+    /* color: white; */
+    /* background-color: #3c414d; */
+    padding: 34px;
+    margin: auto;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 30px;
+
+
+}
+
+.container h3,
+p {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+input,
+textarea {
+    /* display: block; */
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 13px;
+    width: 80%;
+    margin: 10px 0px;
+    padding: 8px;
+    width: 80%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: aqua;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    /* font-size: 1rem; */
+    font-size: 13px;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .10s ease;
+}
+
+.btn:hover {
+    transition: 0.3s;
+    box-shadow: none;
+    background: var(--second-bg-color);
+    color: var(--main-color);
+    border: 0.2px solid var(--main-color);
+
+}
+
+.mait {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;
+
+}
