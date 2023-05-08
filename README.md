@@ -1,2 +1,2 @@
 # PHP-Website
-Connect HTML to database with MySQL using PHP  , Website for college admission query
+Connect HTML To Database With MySQL Using PHP  , Website For College Admission Query
